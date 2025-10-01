@@ -5,7 +5,12 @@ Version 0.2.1 February 2022
 Licensed under CC http://creativecommons.org/licenses/by/4.0/#
 *You can copy or use this software freely if you share it in the same terms. For commercial uses contact the author.
 *OpenSeadragron is under Free BSD license.*
-URL: http://lorna.chafalladas.com/ETail
+
+([GitHub - Chafalleiro/ETMaps: Entropia Maps neutralino app](https://github.com/Chafalleiro/ETMaps))
+
+![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreen.jpg)
+
+![List](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreenList.jpg)
 
 ## Disclaimer.
 
@@ -21,48 +26,53 @@ NO FEE MAY BE CHARGED FOR SUCH DISTRIBUTION OR FOR THE SOFTWARE WITHOUT PRIOR PE
 
 ## Requirements:
 
-   - Windows 8 or higher running in an x64 system.
-      Its recomended installing Web2view to run faster the program.
-   
-   https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section
+- Windows 8 or higher running in an x64 system.
+   Its recomended installing Web2view to run faster the program.
+  
+  https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section
 
 ## Installation:
 
 This program is made in Neutralinojs, a javasript compiler that turns Javascript code into executable programs.
 Neutralinojs is uses the javascript engine son you will need to allow its scripts execution manually. A command processor batch is provided to ease the process.
 
-   - Download the 7zip file and copy the files in a directory of your choosing.
-   - You must run the batch file **"unblockApp.cmd" **as Administrator to unblock the execution of javascript locally.
-   - Download and install Web2view, not mandatory bur reecomended to have a smoother execution. https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section
-   - The executable file is "EtMaps-win_x64.exe". There are other binaries intended to run in Mac and Linux.
+- Download the 7zip file and copy the files in a directory of your choosing.
+- You must run the batch file **"unblockApp.cmd" **as Administrator to unblock the execution of javascript locally.
+- Download and install Web2view, not mandatory bur reecomended to have a smoother execution. https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section
+- The executable file is "EtMaps-win_x64.exe". There are other binaries intended to run in Mac and Linux.
 
 ## Usage:
 
-   - Launch EtMaps-win_x64.exe. The default map is Calypso.
-   - At the top you will see two buttons and one selectable list.
-   - The button "Reload current map" will open again the map selected in the list if the first load fails.
-   - In the selectable list you can choose what map to load. These maps are stored in the "resources.neu" file.
-   - The "Add a waypoint map" will open a form to add new waypoint to a map.
-   - The map can be zoomed in and out with the mouse wheel.
-   - The map will display several icons, each one representing a waypoint. There are different types of icons, representing a type of waypoint. If you click on an icon, it will display a label with additional infomation about the waypoint.
-   - At the right o the window you will se an interactive menu where you can see the waypoint names and select their visibility individually or by type just clicking on the icon eyes.
-   - Either in the map or in the list you can open a submenu with the secondary button. This submenu will offer you the choice of copying the waypoint link to the clipboard, modify or delete it.
-   - There is a status bar at the bottom that will display relevant information, such as the las waypoint copied.
-   - At the top left you coud see the map longitude and latitude coordinates where the mouse is moving.
+- Launch EtMaps-win_x64.exe. The default map is Calypso.
+- At the top you will see two buttons and one selectable list.
+- The button "Reload current map" will open again the map selected in the list if the first load fails.
+- In the selectable list you can choose what map to load. These maps are stored in the "resources.neu" file.
+- The "Add a waypoint map" will open a form to add new waypoint to a map.
+- The map can be zoomed in and out with the mouse wheel.
+- The map will display several icons, each one representing a waypoint. There are different types of icons, representing a type of waypoint. If you click on an icon, it will display a label with additional infomation about the waypoint.
+- At the right o the window you will se an interactive menu where you can see the waypoint names and select their visibility individually or by type just clicking on the icon eyes.
+- Either in the map or in the list you can open a submenu with the secondary button. This submenu will offer you the choice of copying the waypoint link to the clipboard, modify or delete it.
+- There is a status bar at the bottom that will display relevant information, such as the las waypoint copied.
+- At the top left you coud see the map longitude and latitude coordinates where the mouse is moving.
 
 #### Copying a waypoint to the clipboard.
 
   You can select the waypoints either on icons of the map, or in the list at the rigt of the application window.
   There are two ways to copy a waypoint to the clipboard.
 
-   1. -Press the ctrl key and simultaneously the secondary button of your mouse (right is default, left you configured if inverse buttons). A message will flash and you can see the text copied in the status bar.
-   2. -Press the secondary button of your mouse and select the "Copy to clipboard option.
+1. -Press the ctrl key and simultaneously the secondary button of your mouse (right is default, left you configured if inverse buttons). A message will flash and you can see the text copied in the status bar.
+2. -Press the secondary button of your mouse and select the "Copy to clipboard option.
    
+   ![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\CopiedWaypoint.jpg)
+   
+   
+
 #### Adding a new waypoint.
-  - **Brief**. Copy a waypoint from the clipboard using "Clipboard text" button, if the text isn't already copied. Select the map you will be adding the waypoint into. Fill the fields with "Fill clipboard". Put a personalized name to the waypoint in the "Name" field. Select the type of waypoint in dthe select field below "Type" text. Fill the additional nfo field if you like. Press the "Add waypoint" button and accept the prompt.
-  - This is a valid waypoint to copy. "[Thule, 68460, 70759, 150, Flight Data Recorder]", "/wp [...]" links are also valid.
-  
-  1. - Press the "Add a waypoint" button. A form will be displayed with several fields and selectable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
+
+- **Brief**. Copy a waypoint from the clipboard using "Clipboard text" button, if the text isn't already copied. Select the map you will be adding the waypoint into. Fill the fields with "Fill clipboard". Put a personalized name to the waypoint in the "Name" field. Select the type of waypoint in dthe select field below "Type" text. Fill the additional nfo field if you like. Press the "Add waypoint" button and accept the prompt.
+
+- This is a valid waypoint to copy. "[Thule, 68460, 70759, 150, Flight Data Recorder]", "/wp [...]" links are also valid.
+1. - Press the "Add a waypoint" button. A form will be displayed with several fields and selectable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
    + - Button "Clipboard text". You can copy to the text field to its right, the text data that is curently in the clipboard. Use it to prepare the data to be parsed, any text that is not a Entropia Universe waypoint or waypoint link will give corrupted data.
    + - Input field "Copied text". The text here will be used to fill the waypoint data, be sure that is a valid waypoint like the ones described before.
    + - Button "Fill with clipboard". Will fill the planet, longitude, latitude, altitude and name fields with the data copied from clipboard. Type and additional info must be filled manually.
@@ -75,12 +85,14 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
    + - Input field "Additional info". Alphanumeric. Fill it manually with a brief description or data relevant of the waypoint.
    + - Button "Add waypoint". After you filled the data, click this button to record the new data in the CSV table. A confirmation windows will popup.
    + - Button "Cancel". Close the form and abandon editing.
-   
+       
+       ![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\altas.jpg)
+
 #### Modifying a waypoint.
-  - **Brief**. The context menu second option is "Modify waypoint". If you click it, it will show a form similar to the "Add Waypoint", but all the fields are filled with the data of the waypoint selected and there is no buttons or fields related to clipboard actions.
+
+- **Brief**. The context menu second option is "Modify waypoint". If you click it, it will show a form similar to the "Add Waypoint", but all the fields are filled with the data of the waypoint selected and there is no buttons or fields related to clipboard actions.
   You can then alter the values as needed and pressing the "Modify waypoint" a popup will ask you to save the changes.
-  
-  1. - Click the "Modify waypoint" option in the context menu of a waypoint. A form will be displayed with several fields and selectfile:///C:/Users/amdgr/myapp/README.mdable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
+1. - Click the "Modify waypoint" option in the context menu of a waypoint. A form will be displayed with several fields and selectfile:///C:/Users/amdgr/myapp/README.mdable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
    + - Selectable list "Planet". Choose a map.
    + - Input field "Longitude". Longitudinal displacement in Entropia mapping coordinates. Only numeric values are alowed.
    + - Input field "Latitude". Transversal displacement in Entropia mapping coordinates. Only numeric values are alowed.
@@ -92,27 +104,31 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
    + - Button "Cancel". Close the form and abandon editing.
 
 #### Deleting a waypoint.
-  - The context menu third option is "Delete waypoint". If you click it, a popup will ask you to confirm the deletion.
-  
+
+- The context menu third option is "Delete waypoint". If you click it, a popup will ask you to confirm the deletion.
+
 #### Showing info of the waypoint.
-  - Click on any icon on the map. It will open a box with information of the waypoint.
-  - Click on the blue named boxes on the right. Ecah one has a sublist of waypoint of that type, if you click on a name it will show the info box of the waypoint on the map.
-  
+
+- Click on any icon on the map. It will open a box with information of the waypoint.
+- Click on the blue named boxes on the right. Ecah one has a sublist of waypoint of that type, if you click on a name it will show the info box of the waypoint on the map.
+
 #### Hiding and showing waypoints.
-  - If the map is too cluttered with icons, you can hide some of them to see the waypoints clearly. The "eyes" icons on the list boxes of the right can be clicked to hide or show waypoints.
-  - If you click on an open eye in the blue boxes, it will hide all the waypoints of that type. The icon will then be changed to a closed eye, which can be cliecke to restore the visibility.
-  - If you click on the eyes next to the waypoint names, you can switch the visibility of that waypoint.
+
+- If the map is too cluttered with icons, you can hide some of them to see the waypoints clearly. The "eyes" icons on the list boxes of the right can be clicked to hide or show waypoints.
+- If you click on an open eye in the blue boxes, it will hide all the waypoints of that type. The icon will then be changed to a closed eye, which can be cliecke to restore the visibility.
+- If you click on the eyes next to the waypoint names, you can switch the visibility of that waypoint.
+- ![hidden](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreenHidden.jpg)
 
 ## Files provided in the release.
 
 #### Files in main dir:
 
-   - EtMaps-linux_x64 -Linux executable.
-   - EtMaps-mac_x64 -Mac executable.
-   - EtMaps-win_x64.exe -Windows executable.
-   - WebView2Loader.dll -Windows dinamic link library to invoke web viewer.
-   - resources.neu -Data files, icons and maps compressed in ASAR format.
-   - unblockApp.cmd -Batch file to unblock the execution of Neutralinojs javascript.
+- EtMaps-linux_x64 -Linux executable.
+- EtMaps-mac_x64 -Mac executable.
+- EtMaps-win_x64.exe -Windows executable.
+- WebView2Loader.dll -Windows dinamic link library to invoke web viewer.
+- resources.neu -Data files, icons and maps compressed in ASAR format.
+- unblockApp.cmd -Batch file to unblock the execution of Neutralinojs javascript.
   - sources.7z -Source code of the app and Openseadragon. This not include the map files and other resource files. Thay can be found in the git page of the project or extracted from the resources.neu file.
   - readme.md -This file.
   - License.txt -License of the program.
@@ -125,6 +141,7 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
   First line of CSV data for a planet. West, South, 1/Width, 1/height, map height. Other data is aquired by app.
 
       - Ancient Greece.csv
+      - ARIS
       - Arkadia Moon.csv
       - Arkadia underground.csv
       - Arkadia.csv
@@ -144,14 +161,20 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
       - The hub.csv
       - Thule.csv
       - Toulan.csv
+
    Some data related to the maps dimensions.
       - MapCoords.txt
       - transformations.txt
 
-# Built with OpenSeadragon
+# Built with OpenSeadragon and NeutralinoJS
 
-*OpenSeadragon*
-https://github.com/openseadragon/openseadragon/
+
+
+*OpenSeadragon* [GitHub - openseadragon/openseadragon: An open-source, web-based viewer for zoomable images, implemented in pure JavaScript.](https://github.com/openseadragon/openseadragon/)
+
+*NeutralinoJS* [Neutralinojs is a lightweight and portable desktop application development framework. It lets you develop lightweight cross-platform desktop applications using JavaScript, HTML and CSS. You can extend Neutralinojs with any programming language (via extensions IPC) and use Neutralinojs as a part of any source file (via child processes IPC).](https://neutralino.js.org/)
+
+
 
 # Icon credits
 
@@ -161,8 +184,18 @@ https://github.com/openseadragon/openseadragon/
 - `and` - Jonatan Castro Fernández © 2009 - midtone design http://www.midtonedesign.com
 - `and` - http://www.fatcow.com/free-icons
 
-#####	Changelog:
- Version 0.2b February 10th 2022.
+##### Changelog:
+
+Version 0.2.1 October 1st 2025.
+
+
+Changed Github account form Lorna to Chafalleiro, Added sorting option to list of waypoints. Added new maps and waypòints to data. Staged a release with waypoints data, gimp images for maps and finished map images.
+
+
+
+ Changed programing language to Javascript and Neutralinojs. Chat is no longer read, the waypionts are added directly or via clipboard.Version 0.2b February 10th 2022.
+
+
  Changed programing language to Javascript and Neutralinojs. Chat is no longer read, the waypionts are added directly or via clipboard.
 
  Version 0.1b April 25th 2015.
