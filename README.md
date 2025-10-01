@@ -10,7 +10,7 @@ Licensed under CC http://creativecommons.org/licenses/by/4.0/#
 
 ![Image](https://github.com/Chafalleiro/ETMaps/blob/main/MainScreenList.jpg)
 
-![List](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreenList.jpg)
+![List](MainScreenList.jpg)
 
 ## Disclaimer.
 
