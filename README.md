@@ -8,7 +8,7 @@ Licensed under CC http://creativecommons.org/licenses/by/4.0/#
 
 (https://github.com/Chafalleiro/ETMaps)
 
-![Image](https://github.com/Chafalleiro/ETMaps/blob/main/MainScreenList.jpg)
+![Image](MainScreen.jpg)
 
 ![List](MainScreenList.jpg)
 
@@ -63,7 +63,7 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
 1. -Press the ctrl key and simultaneously the secondary button of your mouse (right is default, left you configured if inverse buttons). A message will flash and you can see the text copied in the status bar.
 2. -Press the secondary button of your mouse and select the "Copy to clipboard option.
    
-   ![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\CopiedWaypoint.jpg)
+   ![Image](CopiedWaypoint.jpg)
    
    
 
@@ -86,7 +86,7 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
    + - Button "Add waypoint". After you filled the data, click this button to record the new data in the CSV table. A confirmation windows will popup.
    + - Button "Cancel". Close the form and abandon editing.
        
-       ![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\altas.jpg)
+       ![Image](altas.jpg)
 
 #### Modifying a waypoint.
 
@@ -117,7 +117,7 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
 - If the map is too cluttered with icons, you can hide some of them to see the waypoints clearly. The "eyes" icons on the list boxes of the right can be clicked to hide or show waypoints.
 - If you click on an open eye in the blue boxes, it will hide all the waypoints of that type. The icon will then be changed to a closed eye, which can be cliecke to restore the visibility.
 - If you click on the eyes next to the waypoint names, you can switch the visibility of that waypoint.
-- ![hidden](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreenHidden.jpg)
+- ![hidden](MainScreenHidden.jpg)
 
 ## Files provided in the release.
 
