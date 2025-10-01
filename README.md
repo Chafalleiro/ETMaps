@@ -86,13 +86,19 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
    + - Button "Add waypoint". After you filled the data, click this button to record the new data in the CSV table. A confirmation windows will popup.
    + - Button "Cancel". Close the form and abandon editing.
        
+       
+       
+       Toadd new lines to Additional info type `<br>` for every line you want. DO NOT use commas `,`  as they are the field separator of the data files.
+       
+       
+       
        ![Image](altas.jpg)
 
 #### Modifying a waypoint.
 
 - **Brief**. The context menu second option is "Modify waypoint". If you click it, it will show a form similar to the "Add Waypoint", but all the fields are filled with the data of the waypoint selected and there is no buttons or fields related to clipboard actions.
   You can then alter the values as needed and pressing the "Modify waypoint" a popup will ask you to save the changes.
-1. - Click the "Modify waypoint" option in the context menu of a waypoint. A form will be displayed with several fields and selectfile:///C:/Users/amdgr/myapp/README.mdable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
+1. - Click the "Modify waypoint" option in the context menu of a waypoint. A form will be displayed with several fields and dable lists. Ther will be also four buttons. From left to right, and top to bottom the following are the description and use of that fields and buttons.
    + - Selectable list "Planet". Choose a map.
    + - Input field "Longitude". Longitudinal displacement in Entropia mapping coordinates. Only numeric values are alowed.
    + - Input field "Latitude". Transversal displacement in Entropia mapping coordinates. Only numeric values are alowed.
