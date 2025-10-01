@@ -6,9 +6,9 @@ Licensed under CC http://creativecommons.org/licenses/by/4.0/#
 *You can copy or use this software freely if you share it in the same terms. For commercial uses contact the author.
 *OpenSeadragron is under Free BSD license.*
 
-([GitHub - Chafalleiro/ETMaps: Entropia Maps neutralino app](https://github.com/Chafalleiro/ETMaps))
+(https://github.com/Chafalleiro/ETMaps)
 
-![Image](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreen.jpg)
+![Image](https://github.com/Chafalleiro/ETMaps/blob/main/MainScreenList.jpg)
 
 ![List](C:\Users\amdgr\Documents\Entropia%20Universe\EtMaps\myapp\MainScreenList.jpg)
 
