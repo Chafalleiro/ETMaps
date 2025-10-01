@@ -193,15 +193,9 @@ Neutralinojs is uses the javascript engine son you will need to allow its script
 ##### Changelog:
 
 Version 0.2.1 October 1st 2025.
-
-
 Changed Github account form Lorna to Chafalleiro, Added sorting option to list of waypoints. Added new maps and waypòints to data. Staged a release with waypoints data, gimp images for maps and finished map images.
 
-
-
- Changed programing language to Javascript and Neutralinojs. Chat is no longer read, the waypionts are added directly or via clipboard.Version 0.2b February 10th 2022.
-
-
+Version 0.2b February 10th 2022.
  Changed programing language to Javascript and Neutralinojs. Chat is no longer read, the waypionts are added directly or via clipboard.
 
  Version 0.1b April 25th 2015.
