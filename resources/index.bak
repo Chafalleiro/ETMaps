@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+	<div id="contentDiv" style="min-width: 50%; height: 400px; margin:auto; background-color:rgba(50,50,50,0.8);"></div>
+<script src="js/openseadragon.min.js"></script>        
+<script type="text/javascript">
+    OpenSeadragon({
+        id:"contentDiv",
+        prefixUrl:"images/",
+        tileSources:['./files/apollo17_earth.tiff.dzi','./files/gal_mid-pacific.tiff.dzi','./files/hs-2006-01-a-full_tifx9000.tif.jpg.dzi','./files/hs-2006-03-d-full_jpg.jpg.dzi','./files/hubble_friday_02262016.jpg.dzi','./files/Tarantula-HST-ESO-M.jpg.dzi',],
+        showNavigator:  true,  sequenceMode: true, showReferenceStrip: true, referenceStripSizeRatio: 0.07, referenceStripScroll: 'horizontal'
+    });
+</script>
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,480 @@
+Continent;Lon;Lat;Type;Name;Density;Land Area;Distance
+Rocktropia;135168;90112;Place;CND Lagoon; ;;0
+Rocktropia;135040;90688;Creature;Crunk Shark Coral Hustler to Tooth Assassin;Medium;;432
+Rocktropia;135130;89600;Creature;Pesky ROCKtropia Beach Crab;High;;513
+Rocktropia;135700;97100;Land Area;Zomhattan; ;Zomhattan;600
+Rocktropia;135420;89550;Creature;Pesky ROCKtropia Beach Crab;High;;616
+Rocktropia;135280;89488;Creature;Android Video Vixen Clone Diva;Medium;;634
+Rocktropia;135294;89490;Creature;50 Foot Android Party Girl Single Maturity Mob;Low;;635
+Rocktropia;134480;88592;Creature;Lone Wolf Young to Dominant;Low;;673
+Rocktropia;135315;89440;Creature;Cyber Street Vixen Diva;Medium;;688
+Rocktropia;135303;89412;Teleport;Playa Del Harlem (RTC); ;;713
+Rocktropia;135303;89410;Mission Broker;Kristi; ;;715
+Rocktropia;135322;89408;Mission Broker;Trey Chills; ;;721
+Rocktropia;134478;89425;Creature;Exarosaur (Rocktropia) Alpha to Stalker;Low;;974
+Rocktropia;135803;89268;Revival point; ; ;;1056
+Rocktropia;135759;89229;Teleport;Fort Harlem; ;;1063
+Rocktropia;135464;91144;Revival point; ; ;;1074
+Rocktropia;135451;91155;Revival point; ; ;;1081
+Rocktropia;135508;91142;Revival point; ; ;;1085
+Rocktropia;135428;91175;Revival point; ; ;;1094
+Rocktropia;135412;91180;Teleport;No Way Out Maximum Security Prison; ;;1096
+Rocktropia;135510;91169;Mission Broker;Inmate; ;;1111
+Rocktropia;135519;91176;Revival point; ; ;;1120
+Rocktropia;135451;91216;Revival point; ; ;;1140
+Rocktropia;135600;91187;Mission Broker;D Block Yard Officer; ;;1159
+Rocktropia;135519;91220;Revival point; ; ;;1162
+Rocktropia;135497;91232;Revival point; ; ;;1167
+Rocktropia;135513;91231;Revival point; ; ;;1171
+Rocktropia;135624;91228;Creature;Prison C.O Single Maturity;Medium;;1206
+Rocktropia;135620;91236;Creature;Sissy;Medium;;1211
+Rocktropia;135692;91240;Creature;Northern Hitman LVL 24 to LVL 27;Medium;;1244
+Rocktropia;135692;91240;Creature;D-Block Mafia Member LVL 29 to LVL 31;Medium;;1244
+Rocktropia;134100;90750;Creature;Possessed Wolf Dominant to Prowler;High;Zomhattan;1244
+Rocktropia;135772;91224;Creature;Zomhattan St Boys;Medium;;1265
+Rocktropia;133996;89026;Creature;Exarosaur (Rocktropia) Young to Dominant;Low;;1598
+Rocktropia;133540;91025;Creature;Zombie Biker Enforcer Teen to Slow;Low;;1619
+Rocktropia;134473;88621;Creature;Deer;High;;1645
+Rocktropia;134088;88749;Revival point; ; ;;1739
+Rocktropia;136857;89345;Creature;Daikiba Young to Old;Medium;;1749
+Rocktropia;135415;88118;Creature;Crib Raid VII;Low;;1761
+Rocktropia;136928;91125;Creature;Infected Wolf Dominant to Stalker;Low;;1783
+Rocktropia;134077;88690;Teleport;Bondabee Beach; ;;1792
+Rocktropia;135446;88075;Creature;Booty Raid III;Low;;1808
+Rocktropia;135484;88073;Creature;Booty Raid IV;Low;;1817
+Rocktropia;135511;88034;Creature;Crib Raid III;Low;;1860
+Rocktropia;135337;87987;Creature;Booty Raid I;Low;;1883
+Rocktropia;135688;92146;Creature;Rudolf Dragon Provider to Dominant;High;;1911
+Rocktropia;135353;88207;Mission Broker;Sgt. Bill; ;;1914
+Rocktropia;135752;88037;Creature;Booty Raid VIII;Low;;1916
+Rocktropia;135378;88205;Revival point; ; ;;1919
+Rocktropia;135484;87965;Creature;Booty Raid V;Low;;1923
+Rocktropia;135228;87916;Creature;Booty Raid X;Low;;1947
+Rocktropia;135277;88167;Teleport;The HYPERPLEX; ;;1948
+Rocktropia;135322;88162;Mission Broker;Amber; ;;1956
+Rocktropia;135506;87933;Creature;Crib Raid II;Low;;1958
+Rocktropia;135444;88172;Mission Broker;Trey; ;;1960
+Rocktropia;135636;87942;Creature;Subway I - Union Station Subway;Low;;1976
+Rocktropia;135261;87882;Creature;Booty Raid IX;Low;;1982
+Rocktropia;135332;88136;Mission Broker;Frankie Headstone; ;;1983
+Rocktropia;135305;88127;Revival point; ; ;;1990
+Rocktropia;135254;87863;Creature;Crib Raid VI;Low;;2001
+Rocktropia;135347;87866;Creature;Crib Raid I;Low;;2004
+Rocktropia;136900;89100;Creature;Gamgels Dragon;Low;;2006
+Rocktropia;135683;87923;Creature;Crib Raid VIII;Low;;2006
+Rocktropia;135371;88116;Teleport;Noobs Noobs Noobs; ;;2006
+Rocktropia;135707;87924;Creature;Booty Raid VII;Low;;2012
+Rocktropia;135328;88082;Mission Broker;Alia; ;;2036
+Rocktropia;135320;88080;Creature;Bar Fight;Medium;;2038
+Rocktropia;133473;88958;Creature;Exarosaur (Rocktropia) Young to Dominant;Low;;2051
+Rocktropia;135463;88082;POI;Booty Raid - lockpick III and IV; ;;2051
+Rocktropia;132100;90700;PvP;Docklands; ;;2075
+Rocktropia;136300;88370;Creature;Pesky ROCKtropia Beach Crab;High;;2077
+Rocktropia;137180;89210;Creature;Daikiba Mature to Alpha;High;;2095
+Rocktropia;136055;88211;Teleport;The Chelsea; ;;2098
+Rocktropia;136256;92173;Creature;Rudolf Dragon Alpha to Stalker;High;;2107
+Rocktropia;135756;88074;Mission Broker;Ivan; ;;2121
+Rocktropia;134884;92385;Creature;Rudolf Dragon Prowler to Stalker;High;;2125
+Rocktropia;135752;88048;Place;New Harlem; ;;2145
+Rocktropia;135478;87951;POI;Booty Raid - lockpick V; ;;2183
+Rocktropia;135639;87968;Teleport;RRC Subway Race Circuit; ;;2195
+Rocktropia;135963;88026;Estate Area;Shatler Apartments; ;;2232
+Rocktropia;133952;92048;Revival point; ; ;;2286
+Rocktropia;135463;87845;Teleport;New Harlem Express Way; ;;2286
+Rocktropia;135619;87830;Creature;Touch Sensitive Cyborg Drunk to Moody;Low;;2326
+Rocktropia;135850;87860;POI;Zombie wave (shared loot); ;;2353
+Rocktropia;135572;87766;Creature;Forum Troll L4;Low;;2381
+Rocktropia;135303;87711;Creature;Glamor Girl Drone Frisky to Dancer;Medium;;2405
+Rocktropia;134164;92936;Land Area;Takeover Outpost; ;Takeover Outpost;2414
+Rocktropia;133153;88769;Creature;Osseocollum (Rocktropia) Old Alpha to Stalker;High;;2422
+Rocktropia;135335;87670;Creature;Soulshaker L1 to L2;Medium;;2448
+Rocktropia;135682;87708;Creature;Bonzos Chop Shop;Low;;2458
+Rocktropia;133340;88463;Revival point; ; ;;2462
+Rocktropia;135066;87640;Creature;City Wolf Old Alpha to Stalker;Medium;;2474
+Rocktropia;135425;87645;Teleport;Old Harlem; ;;2480
+Rocktropia;135279;87601;Creature;Fembot Raver Dancer to Voluptous;Low;;2513
+Rocktropia;133995;92586;Creature;Subway VII - Flesher Street Subway;Low;;2519
+Rocktropia;135364;87595;Mission Broker;Officer Mahone; ;;2525
+Rocktropia;137440;89000;Mission Broker;Captain Petter; ;;2530
+Rocktropia;132739;90850;Revival point; ; ;;2539
+Rocktropia;132708;90933;PvP;Docklands Container Yard; ;;2543
+Rocktropia;133993;92368;Teleport;Fleshers Gauntlet; ;;2544
+Rocktropia;137519;88880;Creature;Daikiba Leader to Prowler;High;;2548
+Rocktropia;132839;91146;Revival point; ; ;;2548
+Rocktropia;135678;87604;Creature;Gynoid Elite Series Dancer to Diva;Low;;2559
+Rocktropia;135828;92785;Creature;Rudolf Dragon Young to Provider;Medium;;2565
+Rocktropia;132700;90864;Teleport;Docklands Container Yard; ;;2580
+Rocktropia;136068;92558;Teleport;M.F Stream; ;;2606
+Rocktropia;136700;88000;Creature;Purple Snake;High;;2609
+Rocktropia;132464;91064;Creature;Rocktropia Police Captain;Low;;2629
+Rocktropia;133950;92450;POI;Rap Zombie Gauntlet #1 (shared loot); ;Takeover Outpost;2636
+Rocktropia;135471;87443;Creature;City Wolf Young to Provider;High;;2686
+Rocktropia;137092;92332;Creature;Infected Wolf Provider to Alpha;Low;;2694
+Rocktropia;137484;88718;Revival point; ; ;;2703
+Rocktropia;135597;87441;Creature;City Wolf Young to Provider;Low;;2705
+Rocktropia;137469;88679;Teleport;Daki Ridge; ;;2711
+Rocktropia;137269;88366;Creature;Couger;Low;;2732
+Rocktropia;132587;91089;Creature;Street King Ponyboy Pete;Low;;2760
+Rocktropia;137169;92020;Teleport;Infected Land Fill; ;;2765
+Rocktropia;132616;91272;Creature;ROCKtropia Police Captain L54;Low;;2803
+Rocktropia;132100;92700;Land Area;Camp Crunk; ;Camp Crunk;2839
+Rocktropia;132423;90897;Creature;Street King Bulletproof Bob;Low;;2855
+Rocktropia;132738;88608;Creature;Atrox (Rocktropia) Young to Provider;Medium;;2858
+Rocktropia;132405;91155;Creature;Street King L54 to L56;Low;;2953
+Rocktropia;135019;87117;Creature;City Wolf Guardian to Prowler;Medium;;2999
+Rocktropia;134622;93254;Creature;Subway IV - Lower West Side Subway;Low;;3012
+Rocktropia;136078;93024;Mission Broker;Senior Drill Inst Rufio; ;;3051
+Rocktropia;132290;91135;Creature;Drone (Rocktropia) Gen 03 to Gen 06;Low;;3054
+Rocktropia;133950;92920;POI;Rap Zombie Gauntlet #2 (shared loot); ;Takeover Outpost;3061
+Rocktropia;134283;93053;Revival point; ; ;Zomhattan;3071
+Rocktropia;134672;93329;Creature;Zombie Biker Nomad Old to Scavenger;Low;;3081
+Rocktropia;134312;93281;Creature;Infected Wolf Young to Old;Low;;3089
+Rocktropia;136286;92999;Mission Broker;National Guard Operations Officer; ;;3096
+Rocktropia;136188;93055;Mission Broker;Drill Sgt.Breakerz; ;;3115
+Rocktropia;135096;86996;Creature;City Wolf Provider to Dominant;Medium;;3117
+Rocktropia;136051;93102;Revival point; ; ;;3118
+Rocktropia;136086;93101;Teleport;BAMF HQ; ;;3127
+Rocktropia;136060;93112;Mission Broker;Staff Sgt. Ortiz; ;;3130
+Rocktropia;134350;93133;Teleport;Lower West Side; ;;3130
+Rocktropia;137951;88393;Creature;Daikiba Stalker;Medium;;3147
+Rocktropia;133400;93014;Creature;Camp Crunk Cloth Crate;Low;;3167
+Rocktropia;136315;93076;Teleport;B.A.M.F HeadQuarters; ;;3178
+Rocktropia;136201;93142;Mission Broker;Cpt. Gruber; ;;3201
+Rocktropia;136344;93098;Revival point; ; ;;3209
+Rocktropia;132182;91293;Creature;Radiated Spider;Low;;3211
+Rocktropia;136100;93400;Creature;Decomposing Zombie Teen to Slow;Medium;Zomhattan;3214
+Rocktropia;132708;88024;Creature;Malcruentor Young to Provider;High;;3227
+Rocktropia;136182;93182;Mission Broker;Petty Crimes Officer; ;;3233
+Rocktropia;132585;88167;Teleport;Rickabam Ridge; ;;3233
+Rocktropia;137785;88204;Creature;Daikiba (Rocktropia) Provider to Old Alpha;High;;3239
+Rocktropia;133988;93131;Revival point; ; ;;3241
+Rocktropia;136185;93197;Revival point; ; ;Zomhattan;3248
+Rocktropia;132584;88139;Revival point; ; ;;3251
+Rocktropia;134795;93356;Teleport;Lower West Side Bunker; ;;3265
+Rocktropia;134782;93380;Revival point; ; ;;3291
+Rocktropia;132176;88505;Creature;Malcruentor (Rocktropia) Young to Prowler;High;;3396
+Rocktropia;133401;93021;Teleport;Camp Crunk; ;;3404
+Rocktropia;133832;93257;Revival point; ; ;;3417
+Rocktropia;135463;93518;Revival point; ; ;Zomhattan;3419
+Rocktropia;133361;93016;Revival point; ; ;;3420
+Rocktropia;131971;91458;Revival point; ; ;;3469
+Rocktropia;137000;93300;Creature;Dreamer L19 to L21;Medium;Zomhattan;3480
+Rocktropia;131950;91450;Teleport;Docklands; ;;3485
+Rocktropia;133950;93380;POI;Rap Zombie Gauntlet #1 (shared loot); ;Takeover Outpost;3488
+Rocktropia;132825;87500;Creature;Malcruentor Provider to Stalker;High;;3509
+Rocktropia;133848;86825;Mission Broker;Bartos the Lycan; ;;3542
+Rocktropia;138050;92200;Creature;Crunk Shark Coral Hustler to Reef Eater;Low;Zomhattan;3559
+Rocktropia;138086;88037;Creature;Daikiba (Rocktropia) Young to Old;Medium;;3581
+Rocktropia;133964;86644;Teleport;Lemmy's Castle; ;;3671
+Rocktropia;133940;86647;Mission Broker;Castle Gatekeeper; ;;3676
+Rocktropia;137266;93170;Revival point; ; ;;3708
+Rocktropia;132438;87590;Creature;Vampire Chick Wicked to Blood Fiend;Medium;;3717
+Rocktropia;135000;94000;Creature;Zombie Biker Enforcer Teen to Old;High;Zomhattan;3729
+Rocktropia;136024;93744;Revival point; ; ;Zomhattan;3732
+Rocktropia;134000;94000;Creature;Zombie Biker Enforcer Old to Angry;High;Zomhattan;3735
+Rocktropia;133809;86623;Revival point; ; ;;3744
+Rocktropia;133197;86889;Revival point; ; ;;3778
+Rocktropia;133755;86583;Creature;Pop Dragon Young to Old;High;;3801
+Rocktropia;135900;94000;Creature;Decomposing Zombie Adult to Scavenger;High;Zomhattan;3807
+Rocktropia;133924;93711;Revival point; ; ;;3808
+Rocktropia;133932;93740;Teleport;Fleshers Corner; ;;3833
+Rocktropia;132712;87109;Revival point; ; ;;3879
+Rocktropia;132800;93248;Creature;Crunk Shark Tooth Assasin;Medium;;3930
+Rocktropia;136496;93817;Revival point; ; ;Zomhattan;3936
+Rocktropia;135300;94050;POI;King Kong Memorial Site; ;Zomhattan;3940
+Rocktropia;132026;87728;Resource;Mojito Cocktail Mix;Low;;3944
+Rocktropia;135450;94050;Creature;Zombie Kong;Low;Zomhattan;3948
+Rocktropia;135188;94061;Revival point; ; ;;3949
+Rocktropia;132228;87429;Creature;Vampire Chick Evil to Ancient;Medium;;3980
+Rocktropia;135161;94094;Teleport;Empire Z Building; ;;3982
+Rocktropia;134013;86288;Revival point; ; ;;3995
+Rocktropia;131328;88918;Creature;Malcruentor (Rocktropia) Young to Provider;Medium;;4021
+Rocktropia;134528;86024;Creature;Deer;Low;;4022
+Rocktropia;136590;86350;Creature;Motorhead Royalty L15 to Royalty L21;High;;4022
+Rocktropia;136590;86350;Creature;Motorhead God L43 to God L50;Low;;4022
+Rocktropia;133509;86392;Revival point; ; ;;4073
+Rocktropia;137673;93333;Revival point; ; ;;4080
+Rocktropia;137260;93940;Creature;Street King L27 to L89;Medium;Zomhattan;4094
+Rocktropia;132800;91100;Creature;ROCKER L27;Medium;;4094
+Rocktropia;132800;91100;Creature;ROCKtropia Beat  Cop L27;Low;;4094
+Rocktropia;137696;93333;Teleport;Lower East Side; ;;4095
+Rocktropia;131072;90112;Creature;Soul Shaker;Low;;4096
+Rocktropia;131072;90112;Creature;Zombie Biker Enforcer;Low;;4096
+Rocktropia;135052;94416;Creature;Zombie Biker Enforcer Angry to Sniffer;High;Zomhattan;4166
+Rocktropia;134000;94400;Creature;Zombie Biker Enforcer Crazy to Intelligent;High;Zomhattan;4167
+Rocktropia;138654;87814;Creature;Plumatergus (Rocktropia) Alpha to Stalker;Low;;4175
+Rocktropia;134388;94241;Teleport;Canary Pond; ;;4202
+Rocktropia;135086;94330;Creature;UFO;Low;;4219
+Rocktropia;135176;85864;Creature;Gynoid Elite Series Drunk to Strung Out;High;;4248
+Rocktropia;136095;94262;Mission Broker;Sanchez - Sgt. BRAVO Company; ;Zomhattan;4252
+Rocktropia;136098;94261;Revival point; ; ;Zomhattan;4252
+Rocktropia;138844;87920;Resource;Crude Oil;Medium;;4280
+Rocktropia;138368;87264;Resource;Blausariam Stone;Low;;4284
+Rocktropia;134591;85840;Teleport;Ring of Fire Hunting Lodge; ;;4311
+Rocktropia;134593;85829;Revival point; ; ;;4321
+Rocktropia;134588;85826;Mission Broker;Sgt.Willard; ;;4325
+Rocktropia;138157;86920;Revival point; ; ;;4373
+Rocktropia;136588;94260;POI;Biodome Enter; ;;4384
+Rocktropia;132725;86450;Revival point; ; ;;4402
+Rocktropia;135364;94669;Creature;Subway V - Industrial Street Subway;Low;;4407
+Rocktropia;136114;85806;Creature;Mine VII - Trepitoli Mine;Low;;4409
+Rocktropia;135417;88016;Creature;Booty Raid II;Low;;4429
+Rocktropia;136075;85740;Teleport;ROCKtropia Sign; ;;4465
+Rocktropia;137054;86054;Creature;City Wolf Prowler to Stalker;Medium;;4475
+Rocktropia;138733;87381;Creature;Plumatergus (Rocktropia) Young to Provider;Medium;;4491
+Rocktropia;134800;94800;Creature;Zombie Biker Nomad Teen to Old;High;Zomhattan;4535
+Rocktropia;136600;94500;Creature;Hendrix Dragon Prowler to Stalker;High;Zomhattan;4538
+Rocktropia;134000;94800;Creature;Zombie Biker Nomad Old to Scavenger;Medium;Zomhattan;4542
+Rocktropia;139032;87690;Creature;Kerberos (Rocktropia) Young to Old;Low;;4560
+Rocktropia;136601;85782;Creature;City Wolf Young to Old;Low;;4561
+Rocktropia;135660;94726;Creature;SkullGang Homeboy;Medium;Zomhattan;4580
+Rocktropia;136732;94432;Teleport;Biodome; ;;4594
+Rocktropia;135585;94706;Creature;Subway VIII - Industrial Junction Subway;Low;;4613
+Rocktropia;137200;94856;Creature;Zombie Biker Outlaw Sniffer to Intelligent;High;Zomhattan;4624
+Rocktropia;138667;87070;Teleport;Ituma Beach; ;;4636
+Rocktropia;135900;95300;Creature;Zombie Biker Prospect Nutcase to Intelligent;High;Zomhattan;4643
+Rocktropia;137183;94316;Revival point; ; ;Zomhattan;4662
+Rocktropia;138698;87064;Revival point; ; ;;4664
+Rocktropia;137193;94334;Teleport;Logan Street; ;;4683
+Rocktropia;139016;87367;Creature;Hiryuu (Rocktropia) Young to Old;Low;;4727
+Rocktropia;136176;94747;Revival point; ; ;Zomhattan;4743
+Rocktropia;136300;95100;Creature;Zombie Biker Prospect Slow to Sniffer;High;Zomhattan;4765
+Rocktropia;133632;93120;Creature;Zombie Biker Prospect Teen to Slow;High;;4767
+Rocktropia;137656;86016;Creature;NEVERDIE Dragon Prowler to Stalker;Low;;4792
+Rocktropia;138922;87063;Creature;Sumima (Rocktropia) Young to Old;Medium;;4836
+Rocktropia;134800;95200;Creature;Zombie Biker Nomad Angry to Sniffer;High;Zomhattan;4896
+Rocktropia;135453;85212;Creature;Gynoid Elite Series Dancer to Voluptuous;High;;4908
+Rocktropia;134000;95200;Creature;Zombie Biker Nomad Nutcase to Intelligent;High;Zomhattan;4909
+Rocktropia;137291;94789;Creature;Subway IX - Logan Street Subway;Low;;4919
+Rocktropia;136800;95200;Creature;Zombie Biker Prospect Teen to Old;High;Zomhattan;4920
+Rocktropia;136076;94954;Creature;Radiated Spider;Low;;4926
+Rocktropia;138867;86858;Creature;Mermoth (Rocktropia) Young to Old;Low;;4927
+Rocktropia;134412;95194;Creature;Subway X - South Street Subway;Low;;4963
+Rocktropia;135543;95080;Revival point; ; ;;4982
+Rocktropia;136908;85439;Revival point; ; ;;4986
+Rocktropia;137305;94622;Mission Broker;St Bishiop of Charlie Co; ;Zomhattan;4991
+Rocktropia;136928;85442;Teleport;Wet Wolf Creek; ;;4991
+Rocktropia;137208;85544;Creature;Scavenger Wolf Young to Provider;Medium;;5003
+Rocktropia;136210;95013;Mission Broker;Vampress Guard; ;;5011
+Rocktropia;135544;95111;Teleport;Industrial Way Intersection; ;;5013
+Rocktropia;136244;95014;Teleport;Evil Cathedral; ;;5019
+Rocktropia;135537;95120;Mission Broker;Bruiser - Corp.FOXTROT Company; ;;5022
+Rocktropia;136220;95028;Mission Broker;The Grave of Vampire Helena; ;;5027
+Rocktropia;136217;95035;Mission Broker;The Grave of Vampire LeRoux; ;;5034
+Rocktropia;133600;95500;Creature;Drone Gen. 01 to Gen. 10;Medium;Zomhattan;5036
+Rocktropia;136246;95043;Place;Evil Cathedral; ;;5047
+Rocktropia;136769;94927;Revival point; ; ;Zomhattan;5074
+Rocktropia;136960;85344;Resource;Alternative Rock;Medium;;5094
+Rocktropia;138867;86564;Creature;Itumatrox (Rocktropia) Young to Provider;Medium;;5126
+Rocktropia;136860;94963;Teleport;BioDome Badlands; ;;5138
+Rocktropia;136860;94980;Revival point; ; ;Zomhattan;5154
+Rocktropia;136167;85033;Revival point; ; ;;5176
+Rocktropia;133622;95058;Creature;Drone (Rocktropia) Gen 08 to Gen 10;Low;;5182
+Rocktropia;135794;95256;Revival point; ; ;Zomhattan;5182
+Rocktropia;135358;84929;Creature;Glamor Girl Drone Moody to Diva;High;;5186
+Rocktropia;136140;85013;Mission Broker;Casey; ;;5191
+Rocktropia;136160;85016;Mission Broker;Bones; ;;5192
+Rocktropia;136133;84986;Mission Broker;Jealous Vixen; ;;5216
+Rocktropia;136310;84953;Creature;AI;Low;;5284
+Rocktropia;138278;85837;Revival point; ; ;;5287
+Rocktropia;129960;89030;Mission Broker;Vampire Clarice; ;;5319
+Rocktropia;132176;96356;Land Area;Nuclear Blast Bomb Shelter; ;Nuclear Blast Bomb Shelter;5323
+Rocktropia;136192;84884;Revival point; ; ;;5327
+Rocktropia;136082;84845;Teleport;CND Lagoon; ;;5346
+Rocktropia;135258;84765;Mission Broker;Diesel Rose; ;;5348
+Rocktropia;131403;86294;Teleport;Ecaba Forest; ;;5362
+Rocktropia;135857;84793;POI;Pink Caverns; ;;5363
+Rocktropia;136057;84812;Revival point; ; ;;5374
+Rocktropia;136230;84842;Place;City of Dreams; ;;5376
+Rocktropia;136230;84842;Teleport;City of Dreams; ;;5376
+Rocktropia;136300;95500;Creature;Zombie Biker Outlaw Teen to Old;High;Zomhattan;5415
+Rocktropia;138933;86191;Creature;Phasm (Rocktropia) Young to Mature;Medium;;5436
+Rocktropia;132688;85264;Creature;Pop Dragon Mature to Old Alpha;High;;5446
+Rocktropia;137304;95353;Creature;Subway VI - Lower East Side Subway;Low;;5447
+Rocktropia;136247;84761;Mission Broker;Lt.Funk; ;;5459
+Rocktropia;131175;86364;Revival point; ; ;;5476
+Rocktropia;136414;84770;Creature;Electro Dance Machine Dancer to Drunk;Medium;;5485
+Rocktropia;136347;84753;Mission Broker;Sgt. Baker; ;;5487
+Rocktropia;136000;84512;Creature;Android Video Vixen Clone Dancer to Voluptuou;Medium;;5494
+Rocktropia;135912;84516;Creature;Vampire Chick New Born to Animal Eater;Medium;;5494
+Rocktropia;134089;95508;Creature;Drone (Rocktropia) Gen 01 to Gen 02;Low;;5503
+Rocktropia;133966;95495;Teleport;Upper West Side; ;;5516
+Rocktropia;136800;95600;Creature;Zombie Biker Outlaw Old to Crazy;High;Zomhattan;5531
+Rocktropia;132608;96288;Creature;Rudolf Dragon Old Alpha to Stalker;High;;5532
+Rocktropia;132600;96088;PvP;Nuclear Blast Contaminated Area; ;;5550
+Rocktropia;132354;85324;Revival point; ; ;;5554
+Rocktropia;133773;95496;Creature;Drone (Rocktropia) Gen 02 to Gen 07;Medium;;5562
+Rocktropia;136190;84619;Mission Broker;Cpt. Shramsky; ;;5587
+Rocktropia;134002;95592;Revival point; ; ;;5603
+Rocktropia;136088;84576;Creature;Soulshaker Forum Troll to Soulshaker (6);Medium;;5612
+Rocktropia;137308;95315;Mission Broker;Gunner - Cpt.ECHO Company; ;;5626
+Rocktropia;138786;85773;Creature;Exarosaur (Rocktropia) Young to Old;Low;;5649
+Rocktropia;133018;95349;Teleport;Nuclear Facility Enterance; ;Nuclear Blast Bomb Shelter;5661
+Rocktropia;137315;95354;Revival point; ; ;Zomhattan;5665
+Rocktropia;138439;85481;Creature;Hiryuu (Rocktropia) Young to Provider;Low;;5670
+Rocktropia;134414;84484;Creature;Glamor Girl Drone Dancer to Voluptuous;High;;5678
+Rocktropia;131670;85640;Creature;Tiger;Low;;5678
+Rocktropia;136815;84674;Creature;Electro Dance Machine Bootylicious to Freaky;Medium;;5682
+Rocktropia;136449;95655;Revival point; ; ;;5689
+Rocktropia;134900;84125;Creature;Mine I - Abandoned Mine;Low;;5743
+Rocktropia;136367;95735;Revival point; ; ;Zomhattan;5749
+Rocktropia;139082;85893;Creature;Oculus (Rocktropia) Young to Mature;Low;;5755
+Rocktropia;136370;95751;Teleport;Upper East Side; ;;5766
+Rocktropia;137094;84662;Revival point; ; ;;5780
+Rocktropia;137131;84653;Teleport;Studio Street; ;;5801
+Rocktropia;137996;85040;Revival point; ; ;;5807
+Rocktropia;137079;84613;Creature;Electro Dance Machine Bootylicious to Diva;Medium;;5822
+Rocktropia;136420;84120;Creature;Mulholland Boy;Low;;5825
+Rocktropia;134208;84354;Teleport;Castillo Lofts; ;;5837
+Rocktropia;139063;85711;Teleport;Argo Beach; ;;5877
+Rocktropia;139040;85657;Revival point; ; ;;5902
+Rocktropia;138490;85231;Revival point; ; ;;5904
+Rocktropia;135875;84217;Creature;Drone (Rocktropia) Exterminator;Low;;5937
+Rocktropia;138368;85088;Creature;Scavenger Wolf Dominant to Stalker;Low;;5957
+Rocktropia;135854;84182;Creature;Feffoid (Rocktropia) Warlord to Champion;Low;;5970
+Rocktropia;139032;85479;Creature;Argonaut (Rocktropia) Scavenger to Leader;Low;;6033
+Rocktropia;139032;85479;Creature;Daikiba (Rocktropia) Young to Old;Low;;6033
+Rocktropia;136472;84200;Creature;Soul Shaker Forum Troll to Soulshaker (6);Medium;;6054
+Rocktropia;137630;84530;Creature;Sumima Young to Old;High;;6101
+Rocktropia;134953;83938;Creature;Werewolf Young to Scout;High;;6178
+Rocktropia;138772;85092;Creature;Werewolf Guardian to Raider;Low;;6180
+Rocktropia;135472;83936;Revival point; ; ;;6183
+Rocktropia;129824;93280;Creature;Sacred Wolf Young to Old;Low;;6212
+Rocktropia;135467;83899;Teleport;Studio Gate South; ;;6220
+Rocktropia;129785;86982;POI;Piran Mine (Team); ;;6227
+Rocktropia;138640;84599;Creature;Abandoned Mine VIII - Sebastians Mine;Low;;6305
+Rocktropia;139068;85144;Creature;Foul (Rocktropia) Young to Scout;Low;;6316
+Rocktropia;134341;83580;Creature;UK Fashion Shop;Low;;6336
+Rocktropia;134314;83582;Creature;Wasted ROCKstar Basement;Low;;6338
+Rocktropia;129777;86767;Creature;Morrison Dragon Old Alpha to Stalker;Medium;;6344
+Rocktropia;134178;83805;Estate Area;The U; ;;6384
+Rocktropia;129050;88260;Mission Broker;Vampire Ciera; ;Evil Cathedral;6392
+Rocktropia;134184;83790;Teleport;The U Apartments; ;;6398
+Rocktropia;134323;83766;POI;Underground Club; ;;6402
+Rocktropia;134291;83500;Creature;The Vampire Tomb;Low;;6422
+Rocktropia;134396;83737;Mission Broker;Antonio Hatchet; ;;6422
+Rocktropia;135699;83657;Creature;Soulshaker L5;Low;;6477
+Rocktropia;134188;83703;Creature;Steampunk;High;;6483
+Rocktropia;134414;83669;Teleport;Tangerine; ;;6487
+Rocktropia;138260;84400;Creature;Sumima Dominant to Stalker;High;;6495
+Rocktropia;138230;84104;Creature;Abandoned Mine VI - Handuke Mine;Low;;6522
+Rocktropia;139117;84901;Creature;Ambulimax (Rocktropia) Young to Old;Low;;6538
+Rocktropia;132613;96136;Creature;Possessed Maass Soldier;High;;6543
+Rocktropia;132688;96207;Creature;Infected Staiger Soldier;High;;6580
+Rocktropia;132688;96207;Creature;Possessed Staiger Soldier;High;;6580
+Rocktropia;132688;96207;Creature;Infected Maass Soldier;High;;6580
+Rocktropia;133320;83770;Creature;Pop Dragon Stalker;Medium;;6606
+Rocktropia;132304;84158;Creature;Pop Dragon Dominant to Old Alpha;Medium;;6607
+Rocktropia;133347;96510;Revival point; ; ;;6652
+Rocktropia;129728;86256;Creature;Joplin Dragon Young to Provider;Medium;;6668
+Rocktropia;138618;84401;Revival point; ; ;;6672
+Rocktropia;138800;84500;Creature;Coral Snake;High;;6685
+Rocktropia;134363;83475;Estate Area;Tangerine - THE HOUNSLOW EXCHANGE; ;;6686
+Rocktropia;136959;83657;Creature;Brown Snake;High;;6699
+Rocktropia;138254;84162;Creature;Atrox (Rocktropia) Dominant to Stalker;Low;;6703
+Rocktropia;134273;83455;Revival point;Ballistar Appartments; ;;6717
+Rocktropia;128784;92240;Creature;Sacred Wolf Provider to Guardian;Medium;;6729
+Rocktropia;134229;83442;Teleport;The Ballistar Appartments; ;;6736
+Rocktropia;134336;83385;Creature;Steampunk;Medium;;6778
+Rocktropia;137942;83901;Creature;Brown Snake;High;;6802
+Rocktropia;136847;83509;Teleport;Mulholland Way; ;;6813
+Rocktropia;136830;83494;Revival point; ; ;;6824
+Rocktropia;134968;96969;Creature;THING L6 to L8;Low;Zomhattan;6860
+Rocktropia;136618;83390;Creature;Green Snake;High;;6877
+Rocktropia;129032;93760;Creature;Motörhead Security Outcast to Hunter;Medium;;6905
+Rocktropia;138037;83813;Revival point; ; ;;6922
+Rocktropia;134635;97017;Revival point; ; ;Zomhattan;6926
+Rocktropia;134622;97026;Teleport;Zomhattan Ice Station; ;;6936
+Rocktropia;138869;84244;Creature;Werewolf Scavenger to Warrior;Low;;6938
+Rocktropia;133155;83467;Revival point; ; ;;6943
+Rocktropia;133139;83464;Teleport;London Blockade; ;;6951
+Rocktropia;133656;83300;Creature;RipperSnapper (Rocktropia) Young to Old;Medium;;6978
+Rocktropia;128024;91216;Creature;Lone Wolf Old Alpha to Stalker;High;;7009
+Rocktropia;132740;83530;Creature;Pop Dragon Alpha to Stalker;Medium;;7016
+Rocktropia;133855;83198;Creature;Werewolf Young to Guardian;Low;;7038
+Rocktropia;136013;83107;Creature;Tiger;Medium;;7056
+Rocktropia;138593;83864;Creature;Werewolf Guardian to Scavenger;Low;;7125
+Rocktropia;135622;97232;Creature;THING L6 to L167;Low;Zomhattan;7134
+Rocktropia;135987;82728;Creature;Mine II - Low Land Salt Mine;Low;;7181
+Rocktropia;138430;83700;Creature;NEVERDIE Dragon Old Alpha to Stalker;Medium;;7194
+Rocktropia;127968;89952;Creature;Phasm;Low;;7202
+Rocktropia;132100;83550;Creature;Elvis Dragon Mature to Provider;High;;7244
+Rocktropia;138039;83435;Creature;Atrox (Rocktropia) Guardian to Dominant;Low;;7268
+Rocktropia;133798;82972;Revival point; ; ;;7270
+Rocktropia;130480;96009;Creature;Lemmy's Guardian Berserker to Clan Warlord;Low;;7292
+Rocktropia;137200;83100;Creature;Leopard;High;;7300
+Rocktropia;137200;83100;Creature;Cheetah;High;;7300
+Rocktropia;138688;83682;Revival point; ; ;;7330
+Rocktropia;131800;83550;Creature;Pop Dragon Young to Provider;Medium;;7376
+Rocktropia;136559;85928;Creature;Motörhead Security Outcast to Warrior;Medium;;7377
+Rocktropia;131945;83382;Mission Broker;Commander Hauxley; ;;7462
+Rocktropia;131944;83366;Revival point; ; ;;7477
+Rocktropia;131940;83362;Teleport;Memphis Plains; ;;7482
+Rocktropia;128215;87240;Mission Broker;Vampire LeCroix; ;;7523
+Rocktropia;128520;93660;Creature;Mourner Young to Old;High;;7536
+Rocktropia;136377;82662;Mission Broker;Sgt.Hendi; ;;7547
+Rocktropia;136379;82657;Revival point; ; ;;7553
+Rocktropia;132000;83170;Creature;Elvis Dragon Dominant to Prowler;High;;7631
+Rocktropia;134529;82503;Creature;Kool Kat Young to Mature;High;;7636
+Rocktropia;136630;82600;Creature;NEVERDIE Dragon Young to Old;Medium;;7653
+Rocktropia;135297;82439;Teleport;Snapper Beach; ;;7674
+Rocktropia;136403;82510;Creature;Mine III;Low;;7702
+Rocktropia;135339;82389;Revival point; ; ;;7725
+Rocktropia;135328;82377;Mission Broker;Groundskeeper Billy; ;;7737
+Rocktropia;133438;82563;Creature;Pesky ROCKtropia Beach Crab;High;;7745
+Rocktropia;135414;82352;Creature;The Spare Tire Marina Basement;Low;;7764
+Rocktropia;138428;83047;Creature;Mine V - Piran Mine;Low;;7781
+Rocktropia;134590;82310;Revival point; ; ;;7823
+Rocktropia;137263;82540;Revival point; ; ;;7856
+Rocktropia;132600;82660;Creature;Elvis Dragon Old to Dominant;High;;7882
+Rocktropia;136188;82255;Teleport;Panta Ridge; ;;7923
+Rocktropia;136024;82192;Creature;Panther;Low;;7966
+Rocktropia;136147;82200;Creature;Panther Puny;High;;7972
+Rocktropia;127709;92964;Mission Broker;Montose; ;;7986
+Rocktropia;136260;82137;Creature;Mine IX;Low;;8049
+Rocktropia;136609;82170;Creature;Mine IV - Asanbosam Mine;Low;;8072
+Rocktropia;137600;82400;Creature;NEVERDIE Dragon Provider to Alpha;Medium;;8086
+Rocktropia;134588;82311;Land Area;Isle of Lost Avatars; ;Isle of Lost Avatars;8087
+Rocktropia;136218;82087;Mission Broker;Sgt.Cortiz; ;;8093
+Rocktropia;136215;82087;Mission Broker;Stg.Cortiz; ;;8093
+Rocktropia;136213;82081;Revival point; ; ;;8099
+Rocktropia;138270;82560;Revival point; ; ;;8164
+Rocktropia;132399;82418;Revival point; ; ;;8177
+Rocktropia;132411;82408;Teleport;Memphis Hills; ;;8182
+Rocktropia;129751;83857;Creature;Joplin Dragon;High;;8275
+Rocktropia;131700;82580;Creature;Elvis Dragon Prowler to Stalker;High;;8292
+Rocktropia;127824;94560;Creature;Hendrix Dragon Young to Old;Low;;8586
+Rocktropia;130200;97552;Creature;Sacred Wolf Dominant to Stalker;High;;8711
+Rocktropia;130040;97156;Creature;Lemmy Dragon Dominant to Old Alpha;Medium;;8713
+Rocktropia;130132;97376;Creature;Vampire;Low;;8839
+Rocktropia;128729;96178;Mission Broker;Dominique; ;;8846
+Rocktropia;127400;85720;Mission Broker;Vampire Helena; ;Evil Cathedral;8924
+Rocktropia;129376;96984;Creature;Motorhead Young to Security Champion;Low;;8987
+Rocktropia;128528;96608;Creature;Motorhead Mega-Mouth;High;Vicar Village;9041
+Rocktropia;129159;83352;Mission Broker;Vampire LeRoux; ;;9045
+Rocktropia;126895;86396;POI;Abandoned Mine; ;;9069
+Rocktropia;128536;96480;Creature;Motorhead;High;Vicar Village;9194
+Rocktropia;129540;97684;Creature;Sacred Wolf Dominant to Stalker;High;;9195
+Rocktropia;125975;89180;Mission Broker;Vampire Stephano; ;;9240
+Rocktropia;127333;84635;Creature;Firewall;Low;;9560
+Rocktropia;126560;85760;Resource;Alternative Rock;Medium;Evil Cathedral;9646
+Rocktropia;126560;95392;Creature;White Wolf Alpha to Stalker;High;;9677
+Rocktropia;125945;93837;Creature;Rabid Wolf Young to Provider;Low;;9947
+Rocktropia;125540;92806;Creature;Motorhead Royalty L30 to Royalty L33;High;;9998
+Rocktropia;126020;86055;Mission Broker;Vampire Casandra; ;Evil Cathedral;10007
+Rocktropia;126240;85376;Creature;Garcia Dragon Young to Old;Medium;;10106
+Rocktropia;128050;82910;Mission Broker;Vampire Isabelle; ;;10126
+Rocktropia;125275;86261;Creature;Morrison Dragon Young to Provider;Low;Evil Cathedral;10164
+Rocktropia;125856;84712;Creature;Morrison Dragon Old to Alpha;Medium;;10309
+Rocktropia;127000;96480;Creature;Foul Young to Scout;Medium;;10357
+Rocktropia;126836;96516;Creature;Foul Young to Scout;Medium;;10509
+Rocktropia;126586;96321;Creature;Ambulimax Young to Guardian;High;;10593
+Rocktropia;124580;86400;Mission Broker;Mapheius; ;Evil Cathedral;11220
+Rocktropia;125655;96644;Creature;White Wolf Provider to Alpha;Low;;11540
+Rocktropia;124088;86572;Creature;Elvis Dragon Young to Old;Medium;;11632
+Rocktropia;124024;86532;Creature;Panther;Medium;Evil Cathedral;11705
+Rocktropia;123673;94009;Creature;Sacred Wolf Alpha to Stalker;Medium;;12138
+Rocktropia;125960;94372;Creature;White Wolf Alpha to Stalker;High;;12565
+Rocktropia;123750;96444;Creature;White Wolf Young to Provider;Low;;13056
+Rocktropia;136998;93367;Creature;Subway III - Financial District Subway;Low;;81968
+Rocktropia;136264;93425;Creature;Subway II - 2nd Street Subway;Low;;81970

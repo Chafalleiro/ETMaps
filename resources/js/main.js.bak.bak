@@ -1,0 +1,401 @@
+let getUsername = async () => {
+	const key = NL_OS == 'Windows' ? 'USERNAME' : 'USER';
+	try {
+		value = await Neutralino.os.getEnv(key);
+	}
+	catch(err) {
+		console.error(err);
+	}
+}
+//Some global vars
+let arr_planets,arr_waypoints = "";
+let lst_planets;
+prevLenght = 0;
+let varDemo = "";
+let value = '';
+let despX, despY, reasonX, reasonY, resetCoordsY = 0;
+Neutralino.init();
+getUsername();
+
+var xhr = new XMLHttpRequest();
+	xhr.open("GET", './maps/planets.csv'); //Use the selected engine to process the data
+	xhr.send("Sending"); //We need to say something to the server
+	xhr.onreadystatechange = function()
+	{
+		if (xhr.readyState == 4 && xhr.status == 200)	// Handle response when the operation is complete.
+		{
+			arr_planets = xhr.responseText.split("\r\n");
+			console.log("arr_planets 3: " + arr_planets);
+			main();
+		}
+		else //Everything else that comes out during the process
+		{
+			console.log("xhr.responseText: " + xhr.responseText);
+		}
+	}
+function main()
+{
+	//Selectable list of maps
+	createList();
+	//Load Caly Map
+	//openMap("Planet Calypso");
+	createWaypoints("Planet Calypso");
+}
+//************************Start viewer
+let calyviewer = OpenSeadragon({
+	id:            "calymap",
+	prefixUrl:     "images/",
+	preserveViewport: false,
+	sequenceMode: false,
+	panHorizontal:true,
+	panVertical:true,
+	constrainDuringPan:false,
+	wrapHorizontal:false,
+	wrapVertical:false,
+	visibilityRatio:0.5,
+	minPixelRatio:0.5,
+	minZoomImageRatio:0.8,
+	maxZoomPixelRatio:2,
+	defaultZoomLevel:0,
+	zoomPerClick: 1,
+	minZoomLevel:0,
+	maxZoomLevel:15,
+	navigationControlAnchor:"TOP_RIGHT",
+	showFullPageControl:false,
+	showNavigator:true,
+	navigatorPosition:"BOTTOM_RIGHT"
+//		showReferenceStrip: true
+});
+calyviewer.addHandler('open', function() {
+	var tracker = new OpenSeadragon.MouseTracker({
+	element: "calymap",
+	moveHandler: function(event) {
+		var webPoint = event.position;
+		var xMap = (calyviewer.viewport.pointFromPixel(webPoint).x/reasonX) + despX;
+		var yMap = resetCoordsY - ( (calyviewer.viewport.pointFromPixel(webPoint).y/reasonY) - despY);
+		xMap = parseInt(xMap);
+		yMap = parseInt(yMap);
+		var pagina = calyviewer.currentPage();
+		positionEl.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;Map: ' + nameMap + ' &nbsp;Position: ' + xMap.toString() + "," + yMap.toString();
+		}
+	});  
+	tracker.setTracking(true);
+});
+
+//****************************************************************************
+//************************ Functions *****************************************
+//****************************************************************************
+//************************ Waypoints
+function createWaypoints(datafile)
+{
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET", './maps/' + datafile + '.csv'); //Use the selected engine to process the data
+	xhr.send("Sending"); //We need to say something to the server
+	xhr.onreadystatechange = function()
+	{
+		if (xhr.readyState == 4 && xhr.status == 200)	// Handle response when the operation is complete.
+		{
+			arr_waypoints = xhr.responseText.split("\r\n");
+			if(arr_waypoints[0] == "0,0,0.1,0.1,0"){demodisplay("Sin Mapa");openMap("noMap");}
+			else{openMap(datafile);createMapLabels();}
+		}
+		else //Everything else that comes out during the process
+		{
+			console.log("xhr.responseText: " + xhr.responseText);
+		}
+	}
+}
+
+function createMapLabels()
+{
+	Demo.innerHTML = arr_waypoints[0];
+	let scaleValues = arr_waypoints[0].split(",")
+	let div_overlay,div_overlay_img,div_listWaypoints;
+	let table_row;
+	let table_cell,table_props;
+	despX = scaleValues[0];
+	despY = scaleValues[1];
+	reasonX = scaleValues[2];
+	reasonY = scaleValues[3];
+	resetCoordsY = scaleValues[4];
+	prevLenght = arr_waypoints.length;
+	let arr_classes = ["Revival","Estate","POI","Mission Broker","Outpost","Teleport","Mission","Mob","Instance","Resource"];
+//	let div_listWaypoints_Re = document.getElementById("listWaypoints_Revival");
+//	let div_listWaypoints_Es = document.getElementById("listWaypoints_Estate");
+//	let div_listWaypoints_PO = document.getElementById("listWaypoints_POI");
+//	let div_listWaypoints_MB = document.getElementById("listWaypoints_Mission_Broker");
+//	let div_listWaypoints_Ou = document.getElementById("listWaypoints_Outpost");
+//	let div_listWaypoints_Te = document.getElementById("listWaypoints_Teleport");
+//	let div_listWaypoints_Mi = document.getElementById("listWaypoints_Mission");
+//	let div_listWaypoints_Mo = document.getElementById("listWaypoints_Mob");
+//	let div_listWaypoints_In = document.getElementById("listWaypoints_Instance");
+/* 	<ul>
+		<li>
+			<input type='checkbox' id='checkbox-1' name='checkbox-accordion' />
+			<label for='checkbox-1'>
+				<img src="icons/eye.png" id="RevivalClassEye" onclick="switchClass('Revival');return false;"/><input type='checkbox' id='RevivalChkHid' style="visibility: hidden"/>
+				&nbsp;&nbsp;&nbsp;Revival</label>
+			<div id="listWaypoints_Revival" class='content'"></div>
+		</li>
+		<li>
+*/
+	let table_Revival = document.createElement("table");
+	let table_Estate = document.createElement("table");
+	let table_POI = document.createElement("table");
+	let table_Mission_Broker = document.createElement("table");
+	let table_Outpost = document.createElement("table");
+	let table_Teleport = document.createElement("table");
+	let table_Mission = document.createElement("table");
+	let table_Mob = document.createElement("table");
+	let table_Instance = document.createElement("table");
+
+	table_Revival.id = "revival_table"
+	div_listWaypoints_Re.appendChild(table_Revival);
+	table_Estate.id = "estate_table"
+	div_listWaypoints_Es.appendChild(table_Estate);
+	table_POI.id = "POI_table"
+	div_listWaypoints_PO.appendChild(table_POI);
+	table_Mission_Broker.id = "Mission_Broker_table"
+	div_listWaypoints_MB.appendChild(table_Mission_Broker);	
+	table_Outpost.id = "Outpost_table"
+	div_listWaypoints_Ou.appendChild(table_Outpost);
+	table_Teleport.id = "Teleport_table"
+	div_listWaypoints_Te.appendChild(table_Teleport);
+	table_Mission.id = "Mission_table"
+	div_listWaypoints_Mi.appendChild(table_Mission);
+	table_Mob.id = "Mob_table"
+	div_listWaypoints_Mo.appendChild(table_Mob);
+	table_Instance.id = "Instance_table"
+	div_listWaypoints_In.appendChild(table_Instance);
+
+	let img_cell = document.createElement("img");	
+	for (let i = 1; i < arr_waypoints.length; i++)
+	{
+		let coords = arr_waypoints[i].split(",")
+		div_overlay = document.createElement("div");
+		div_overlay_img = document.createElement("img");
+		img_cell.src = "icons/eye.png";
+		img_cell.style.cursor = "pointer";
+		img_cell.id = "img_file_" + i;
+		img_cell = document.createElement("img");
+		let chk_eye = document.createElement("INPUT");
+		chk_eye.setAttribute("type", "checkbox");
+		div_overlay.className = coords[4];
+		switch (coords[4])
+		{
+			case "Revival":
+				div_overlay_img.src = "icons/toolbox-plus-icon.png";
+				div_overlay.id = "div_Revival_" + i;
+				div_overlay_img.id = "div_Revival_img_" + i;
+				chk_eye.id = "Revival_chk" + i;
+				chk_eye.class = "Revival_chk";
+				img_cell.class = "Revival_Eye";
+				table_row = table_Revival.insertRow();
+			break;
+			case "Estate":
+				div_overlay_img.src = "icons/house-icon.png";
+				div_overlay.id = "div_Estate_" + i;
+				div_overlay_img.id = "div_Estate_img_" + i;
+				table_row = table_Estate.insertRow();
+			break;
+			case "POI":
+				div_overlay_img.src = "icons/camera-icon.png";
+				div_overlay.id = "div_POI_" + i;
+				div_overlay_img.id = "div_POI_img_" + i;
+				table_row = table_POI.insertRow();
+			break;
+			case "Mission Broker":
+				div_overlay_img.src = "icons/user-exclamation-icon.png";
+				img_cell.class = "Mission_Broker_Eye";
+				div_overlay.id = "div_Mission_Broker_" + i;
+				div_overlay_img.id = "div_Mission_Broker_img_" + i;
+				table_row = table_Mission_Broker.insertRow();
+			break;
+			case "Outpost":
+				div_overlay_img.src = "icons/bullet_red.png";
+				div_overlay.id = "div_Outpost_" + i;
+				div_overlay_img.id = "div_Outpost_img_" + i;
+				table_row = table_Outpost.insertRow();
+			break;
+			case "Teleport":
+				div_overlay_img.src = "icons/camera_lens.png";
+				div_overlay.id = "div_Teleport_" + i;
+				div_overlay_img.id = "div_Teleport_img_" + i;
+				table_row = table_Teleport.insertRow();
+			break;
+				case "Mission":
+				div_overlay_img.src = "icons/roadworks.png";
+				div_overlay.id = "div_Mission_" + i;
+				div_overlay_img.id = "div_Mission_img_" + i;
+				table_row = table_Mission.insertRow();
+			break;
+				case "Mob":
+				div_overlay_img.src = "icons/bug.png";
+				div_overlay.id = "div_Mob_" + i;
+				div_overlay_img.id = "div_Mob_img_" + i;
+				table_row = table_Mob.insertRow();
+			break;
+				case "Instance":
+				div_overlay_img.src = "icons/helmet_mine.png";
+				div_overlay.id = "div_Instance_" + i;
+				div_overlay_img.id = "div_Instance_img_" + i;
+				table_row = table_Instance.insertRow();
+		}
+		table_cell = table_row.insertCell();
+		table_cell.appendChild(img_cell);
+		table_cell.appendChild(chk_eye);
+		table_cell = table_row.insertCell();
+			table_props = document.createElement("span");
+			table_props.style.cursor = "pointer";			
+			table_props.innerHTML = coords[3];
+		table_cell.appendChild(table_props);	
+		div_overlay_img.style.cursor = "pointer";		
+		div_overlay_img.title =  coords[3];		
+		if (div_overlay_img.addEventListener) {
+			div_overlay_img.addEventListener("click", function(){switchLabel("label_" + i,coords)}, false);
+			table_props.addEventListener("click", function(){switchLabel("label_" + i,coords)}, false);
+		} else {
+			div_overlay_img.attachEvent('onclick', function(){switchLabel("label_" + i,coords)}, false);
+			table_props.addEventListener("click", function(){switchLabel("label_" + i,coords)}, false);
+		}
+		document.body.appendChild(div_overlay);
+		div_overlay.appendChild(div_overlay_img);
+		div_overlay.style.display = "block";
+		var x1 = (coords[0] - despX) * reasonX;
+		var y1 = 1 - ((coords[1] - despY) * reasonY);
+		calyviewer.addOverlay({element: div_overlay,location: new OpenSeadragon.Point(x1,y1)});
+	}
+	checkWidth();
+}
+//************************ Maps
+//Open a map
+function openMap(mapName)
+{
+	calyviewer.open("./maps/" + mapName + ".dzi");
+	nameMap = mapName;
+}
+//Switch all the markers of a type.
+function switchClass(myLabel)
+{
+	if(document.getElementById(myLabel+"ChkHid").checked)
+	{
+		document.getElementById(myLabel+"ClassEye").src = "icons/eye.png";
+		document.getElementById(myLabel+"ChkHid").checked = false;
+		visiClass(myLabel,"visible");
+	}
+	else
+	{
+		document.getElementById(myLabel+"ChkHid").checked = true;
+		document.getElementById(myLabel+"ClassEye").src = "icons/eye-close-icon.png"
+		visiClass(myLabel,"hidden");
+	}
+}
+function visiClass(myLabel,visi)
+{
+	elem = document.getElementsByClassName(myLabel);
+	/*We now know how many labels are there, so we go trough their visibiliy
+	recorded states in switchLabel(myLabel,myCoords)*/
+	for(var i = 0; i < elem.length; i++) {
+		//Turn on the icon marker
+		elem[i].style.visibility = visi;
+		demodisplay("strin chk =chk_"+elem[i].id);
+		elemchk = document.getElementById("chk_"+elem[i].id);
+		demodisplay("myLabel: "+myLabel+" elem[i].id: "+elem[i].id+" elemchk: "+ elemchk);
+		//check the visibility of the label
+		demodisplay("myLabel: "+myLabel+" elem[i].id: "+elem[i].id+" elemchk.id: "+ elemchk.id);
+		if (elemchk.checked === true)
+		{
+			demodisplay(myLabel+" Label id: "+ elem[i].id+ " State: "+ elemchk.checked+ " Class: "+ elemchk.className);
+		}
+	}
+}
+
+//Switch label
+function switchLabel(myLabel,myCoords)
+{
+	if (document.getElementById(myLabel))
+	{
+		//We use a checkbox instead the visibility to track the state when switching all the markers.
+		if (document.getElementById("chk_"+myLabel).checked === false)
+		{
+			document.getElementById(myLabel).style.visibility = "visible";
+			document.getElementById("chk_"+myLabel).checked = true;
+		}
+		else
+		{
+			document.getElementById(myLabel).style.visibility = "hidden";
+			document.getElementById("chk_"+myLabel).checked = false;
+		}
+	}
+	else
+	{
+		div_overlay_ovr = document.createElement("div");
+		div_overlay_ovr.className = myCoords[4];
+		div_overlay_ovr.id = myLabel
+		div_overlay_label = document.createElement("div");
+		div_overlay_label.className = "example-obtuse";
+		div_overlay_chk = document.createElement("checkbox");
+		div_overlay_chk.id = "chk_"+myLabel;
+		div_overlay_chk.className = "chk_"+myCoords[4];
+		div_overlay_chk.checked = true;
+		div_overlay_label.id = "data_"+myLabel;
+		div_overlay_label.innerHTML = "Location: " + myCoords[3] +"<br/>"
+		div_overlay_label.style.border = "1px inset #0f0f0F";
+		div_overlay_label.style.height = "175px";
+		div_overlay_label.style.width = "105px";
+		div_overlay_label.style.borderRadius = "5px 10px 5px 5px";
+		div_overlay_label.style.margin = "5px";
+		document.body.appendChild(div_overlay_ovr);
+		div_overlay_ovr.appendChild(div_overlay_label);
+		div_overlay_ovr.appendChild(div_overlay_chk);
+		div_overlay_ovr.style.display = "block";
+		var x1 = ((myCoords[0] * 1) - despX) * reasonX;
+		var y1 = 1 - ((myCoords[1] - despY) * reasonY);
+ 		calyviewer.addOverlay({element: div_overlay_ovr,location: new OpenSeadragon.Point(x1,y1), placement: OpenSeadragon.Placement.BOTTOM_LEFT});
+	}
+}
+//************************ Interface
+//List of maps
+function createList(){
+let i, j;
+let spacer = "";
+objFltrOpt = document.getElementById("chngMap");
+	for(i=0;i < arr_planets.length;i++){
+		let lst_planets = arr_planets[i].split(",");
+		spacer = "";
+		for(j=0;j < lst_planets.length;j++){
+			if (lst_planets[j] != ""){
+				opt = document.createElement("option");
+				if (j>0){spacer = "--"}
+				opt.text = spacer + lst_planets[j];
+				opt.value = lst_planets[j];
+				objFltrOpt.options.add(opt);
+			}
+		}
+		opt = document.createElement("option");
+		opt.text = "----------------------------------";
+		opt.value = "----------------------------------";
+		objFltrOpt.options.add(opt);
+	}
+	objFltrOpt.SelectedIndex = 0;
+}
+function checkWidth()
+{
+	let myNewWidth = window.innerWidth - 238;
+	document.getElementById("listWaypoints").style.left = myNewWidth + "px";
+	console.log("Width: "+ window.innerWidth);
+}
+function checkHeight()
+{
+	let myNewHeight = window.innerHeight - 70;
+	document.getElementById("Panel1").style.height = myNewHeight + "px";
+	myNewHeight = myNewHeight - 70;
+	document.getElementById("calymap").style.height = myNewHeight + "px";
+	myNewHeight = myNewHeight - 70;	
+	document.getElementById("listWaypoints").style.height = myNewHeight + "px";
+}
+//Debug helper
+function demodisplay(myVar)
+{
+	console.log("Demo called: "+ myVar);
+}
